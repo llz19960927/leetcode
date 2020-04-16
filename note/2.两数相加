@@ -39,7 +39,7 @@ class Solution:
                 bridge = bridge.next
         return l3
                
-改进：在计算和的同时把结果写入链表：
+改进：不用算总和，在计算每位值的同时把结果写入链表：
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         head = ListNode(0)  #头结点，无存储，指向链表第一个结点
